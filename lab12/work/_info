@@ -1,0 +1,95 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/17.1
+vcomb2
+!s110 1521634980
+!i10b 1
+!s100 V52VjZH@X;UcNbBhX=b]D0
+I]71^4z<16fCThSBO]J?bR0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/intelFPGA_pro/projects
+w1521634893
+8C:\intelFPGA_pro\projects\lab2_comb2.v
+FC:\intelFPGA_pro\projects\lab2_comb2.v
+L0 1
+Z2 OV;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1521634980.000000
+!s107 C:\intelFPGA_pro\projects\lab2_comb2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab2_comb2.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vcombination
+!s110 1521634773
+!i10b 1
+!s100 NOi:24IAU`bG7f9X:mzRC0
+I]<;2InEW:5@dJf24dcgH]3
+R0
+R1
+w1521575872
+8C:/intelFPGA_pro/projects/lab2_comb1.v
+FC:/intelFPGA_pro/projects/lab2_comb1.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1521634773.000000
+!s107 C:/intelFPGA_pro/projects/lab2_comb1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab2_comb1.v|
+!i113 1
+R3
+R4
+vExclusiveOR
+!s110 1521634897
+!i10b 1
+!s100 d7N6S>z1o;iESfJ?V?zh?3
+I1H2EZW2PW>]39LKPRUP`E1
+R0
+R1
+w1519800045
+8C:/intelFPGA_pro/projects/lab2.v
+FC:/intelFPGA_pro/projects/lab2.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1521634896.000000
+!s107 C:/intelFPGA_pro/projects/lab2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab2.v|
+!i113 1
+R3
+R4
+n@exclusive@o@r
+vmult_acc
+!s110 1519205420
+!i10b 1
+!s100 =djD@3o<A=F=l=4`eQQ@R1
+Ig?1<Dk0bllNcYk?nS2Hzb0
+R0
+R1
+w1519205418
+8C:/intelFPGA_pro/projects/mult_acc.v
+FC:/intelFPGA_pro/projects/mult_acc.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1519205420.000000
+!s107 C:/intelFPGA_pro/projects/mult_acc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/mult_acc.v|
+!i113 1
+R3
+R4

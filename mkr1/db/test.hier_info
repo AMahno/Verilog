@@ -1,0 +1,42 @@
+|test
+clk <= task2:inst.clk
+reset <= task2:inst.reset
+a[0] <= task2:inst.data_a[0]
+a[1] <= task2:inst.data_a[1]
+a[2] <= task2:inst.data_a[2]
+a[3] <= task2:inst.data_a[3]
+a[4] <= task2:inst.data_a[4]
+a[5] <= task2:inst.data_a[5]
+a[6] <= task2:inst.data_a[6]
+a[7] <= task2:inst.data_a[7]
+b[0] <= task2:inst.data_b[0]
+b[1] <= task2:inst.data_b[1]
+b[2] <= task2:inst.data_b[2]
+b[3] <= task2:inst.data_b[3]
+b[4] <= task2:inst.data_b[4]
+b[5] <= task2:inst.data_b[5]
+b[6] <= task2:inst.data_b[6]
+b[7] <= task2:inst.data_b[7]
+
+
+|test|task2:inst
+clk <= <GND>
+reset <= <VCC>
+data_a[0] <= <GND>
+data_a[1] <= <VCC>
+data_a[2] <= <VCC>
+data_a[3] <= <VCC>
+data_a[4] <= <VCC>
+data_a[5] <= <GND>
+data_a[6] <= <VCC>
+data_a[7] <= <VCC>
+data_b[0] <= <GND>
+data_b[1] <= <GND>
+data_b[2] <= <VCC>
+data_b[3] <= <GND>
+data_b[4] <= <GND>
+data_b[5] <= <GND>
+data_b[6] <= <GND>
+data_b[7] <= <GND>
+
+

@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/projects/lab4
+vpwm
+!s110 1522166936
+!i10b 1
+!s100 PL3L>?[K1>k:eoRghW54b2
+IBc;J@]Bj]5O@L=NHO;eJV0
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/intelFPGA_pro/projects
+w1522166930
+8C:\intelFPGA_pro\projects\pwm.v
+FC:\intelFPGA_pro\projects\pwm.v
+L0 1
+OV;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1522166936.000000
+!s107 C:\intelFPGA_pro\projects\pwm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\pwm.v|
+!i113 1
+o-work work
+tCvgOpt 0

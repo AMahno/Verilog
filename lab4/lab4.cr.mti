@@ -1,0 +1,33 @@
+C:/intelFPGA_pro/projects/lab4/uart_rx.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab4/uart_rx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} C:/intelFPGA_pro/projects/lab4/uart_tb.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab4/uart_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module uart_tx
+-- Compiling module uart_rx
+-- Compiling module my_rx
+-- Compiling module uart_tb
+
+Top level modules:
+	uart_tx
+	uart_tb
+
+} {} {}} C:/intelFPGA_pro/projects/lab4/my_rx.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab4/my_rx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module my_rx
+
+Top level modules:
+	my_rx
+
+} {} {}} C:/intelFPGA_pro/projects/lab4/uart_tx.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab4/uart_tx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}}

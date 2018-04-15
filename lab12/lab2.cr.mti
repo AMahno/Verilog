@@ -1,0 +1,22 @@
+C:/intelFPGA_pro/projects/lab2_comb1.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab2_comb1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module combination
+
+Top level modules:
+	combination
+
+} {} {}} C:/intelFPGA_pro/projects/lab2_comb2.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab2_comb2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module comb2
+
+Top level modules:
+	comb2
+
+} {} {}} C:/intelFPGA_pro/projects/lab2.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module ExclusiveOR
+
+Top level modules:
+	ExclusiveOR
+
+} {} {}}

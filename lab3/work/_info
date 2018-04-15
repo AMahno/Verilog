@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/projects
+vdecoder
+Z0 !s110 1521635135
+!i10b 1
+!s100 CCX]]T[9Fb5=c^YCKcGZa2
+IhH:TBPG^bWOeE_8lBUJ>Q2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA_pro/projects/lab3
+w1521634251
+8C:/intelFPGA_pro/projects/lab3/enc.v
+FC:/intelFPGA_pro/projects/lab3/enc.v
+L0 1
+Z3 OV;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1521635135.000000
+!s107 C:/intelFPGA_pro/projects/lab3/enc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab3/enc.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vmux_8_to_1
+R0
+!i10b 1
+!s100 h@^BbXRG;C0mXXZ:Qb4dJ0
+I4n0_H_naVMnmb4Y0A98hA0
+R1
+R2
+w1521635125
+8C:\intelFPGA_pro\projects\lab3\mux.v
+FC:\intelFPGA_pro\projects\lab3\mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\intelFPGA_pro\projects\lab3\mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab3\mux.v|
+!i113 1
+R5
+R6

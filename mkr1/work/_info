@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/projects
+vtask1
+!s110 1522229626
+!i10b 1
+!s100 SbTzbOJ`^kNgWFkH8UXDo0
+I@33]SPV2>PLl9o<B?PIKY0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/intelFPGA_pro/projects/mkr1
+w1522229618
+8C:\intelFPGA_pro\projects\mkr1\mkr11.v
+FC:\intelFPGA_pro\projects\mkr1\mkr11.v
+L0 1
+Z2 OV;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1522229626.000000
+!s107 C:\intelFPGA_pro\projects\mkr1\mkr11.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\mkr1\mkr11.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vtask2
+!s110 1522232362
+!i10b 1
+!s100 ziI=5YXM[=Tn4<4QAJN2d1
+IL8hL0;G;o3<1N>Y:KHk`T2
+R0
+R1
+w1522232327
+8C:\intelFPGA_pro\projects\mkr1\task2.v
+FC:\intelFPGA_pro\projects\mkr1\task2.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1522232362.000000
+!s107 C:\intelFPGA_pro\projects\mkr1\task2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\mkr1\task2.v|
+!i113 1
+R3
+R4

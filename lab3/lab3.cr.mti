@@ -1,0 +1,15 @@
+C:/intelFPGA_pro/projects/lab3/mux.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab3\mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mux_8_to_1
+
+Top level modules:
+	mux_8_to_1
+
+} {} {}} C:/intelFPGA_pro/projects/lab3/enc.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab3/enc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}}

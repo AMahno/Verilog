@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/projects/lab3
+vmy_rx
+Z0 !s110 1522168829
+!i10b 1
+!s100 o3`OgVBHb5MXEHT[PoVN02
+IMTBo`I[7]AkXgVcd3k`Y63
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA_pro/projects/lab4
+w1522160406
+8C:/intelFPGA_pro/projects/lab4/my_rx.v
+FC:/intelFPGA_pro/projects/lab4/my_rx.v
+L0 1
+Z3 OV;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1522168829.000000
+!s107 C:/intelFPGA_pro/projects/lab4/my_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab4/my_rx.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vuart_rx
+R0
+!i10b 1
+!s100 M97cQOlKmgjN5@J[g]X1X3
+IY5W[>^1N=T^5z<:ol10352
+R1
+R2
+w1521662411
+8uart_rx.v
+Fuart_rx.v
+Z6 L0 14
+R3
+r1
+!s85 0
+31
+Z7 !s108 1522168828.000000
+Z8 !s107 my_rx.v|uart_rx.v|uart_tx.v|C:/intelFPGA_pro/projects/lab4/uart_tb.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab4/uart_tb.v|
+!i113 1
+R4
+R5
+vuart_tb
+R0
+!i10b 1
+!s100 [BY0aBeYC_>R79dBRe_AS3
+IO?n73JJl0LA3>l3]2^ed71
+R1
+R2
+w1522168822
+8C:/intelFPGA_pro/projects/lab4/uart_tb.v
+FC:/intelFPGA_pro/projects/lab4/uart_tb.v
+R6
+R3
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R4
+R5
+vuart_tx
+!s110 1522168828
+!i10b 1
+!s100 4NJXF0?GWMV0k35k8@IzM2
+ILIFKZkAJ@?m2z?i8cndAR2
+R1
+R2
+w1521662363
+8uart_tx.v
+Fuart_tx.v
+R6
+R3
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R4
+R5
