@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/17.1
+vALU_tb
+Z0 !s110 1523970524
+!i10b 1
+!s100 [D4NNCjZo8@d4D_=K:h0Q1
+INm7fPCL;5LOZ`g`7aoDNz2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA_pro/projects/lab5
+w1523970310
+8C:/intelFPGA_pro/projects/lab5/ALU_tb.v
+FC:/intelFPGA_pro/projects/lab5/ALU_tb.v
+L0 4
+Z3 OV;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1523970524.000000
+Z5 !s107 sudo-ALU.v|C:/intelFPGA_pro/projects/lab5/ALU_tb.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab5/ALU_tb.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@a@l@u_tb
+vsudo_ALU
+R0
+!i10b 1
+!s100 2VcNThfLKLbn;3A`M^zaQ3
+In2L:g1ZHIKEgM1XCT[ILd1
+R1
+R2
+w1523970522
+8sudo-ALU.v
+Fsudo-ALU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+nsudo_@a@l@u
