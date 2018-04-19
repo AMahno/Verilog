@@ -18,7 +18,7 @@ module SM_tb();
 		tb_reset <= 1'b0;
 		tb_reset <= #5 1'b1;
 		tb_reset <=  #10 1'b0;
-		tb_w <= #30 1'b1;
+		tb_w <= #40 1'b1;
 	 end
 
 endmodule

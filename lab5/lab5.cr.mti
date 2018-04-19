@@ -6,4 +6,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	ALU_tb
 
+} {} {}} C:/intelFPGA_pro/projects/lab5/sudo-ALU.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab5/sudo-ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module sudo_ALU
+
+Top level modules:
+	sudo_ALU
+
 } {} {}}

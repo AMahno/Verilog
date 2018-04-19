@@ -33,7 +33,7 @@ module state_machine(clk, w, reset, out);
 	
 	always @(posedge clk, posedge reset) begin
 		if(reset) state <= S_A;
-		
+		else
 		case(state)
 			S_A:
 				state = w ? S_F : S_B; 

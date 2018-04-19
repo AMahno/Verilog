@@ -1,4 +1,5 @@
 vsim -gui work.MP_tb -t ns
+vlog -work work -stats=none C:/intelFPGA_pro/projects/lab6/MP_tb.v
 
 radix define sm_state {
 	3'd0 "S_0"

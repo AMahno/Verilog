@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/17.1
 vmicroprogram
-Z0 !s110 1524146063
+Z0 !s110 1524162997
 !i10b 1
 !s100 15N@_C0Bag;9LOdTe_mFR3
 I1RKdFImiBdKLK9?Tn]^PI2
@@ -23,7 +23,7 @@ Z3 OV;L;10.5c;63
 r1
 !s85 0
 31
-Z4 !s108 1524146063.000000
+Z4 !s108 1524162997.000000
 Z5 !s107 MP.v|C:/intelFPGA_pro/projects/lab6/MP_tb.v|
 Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab6/MP_tb.v|
 !i113 1
@@ -36,7 +36,7 @@ R0
 I=>CO`68;C=T9@<afbHgjc1
 R1
 R2
-w1524145211
+w1524156621
 8C:/intelFPGA_pro/projects/lab6/MP_tb.v
 FC:/intelFPGA_pro/projects/lab6/MP_tb.v
 L0 4
@@ -52,35 +52,35 @@ R7
 R8
 n@m@p_tb
 vSM_tb
-R0
+Z9 !s110 1524163000
 !i10b 1
-!s100 H>F2O2ka=0N0kU<R@YVPL1
-I?Jlbka_Pa`kXL2WHKiH2B0
+!s100 ?z]58hN3z?RWlPU@ho_AY1
+I2akj0AZAWX3=]EGgI82Ba3
 R1
 R2
-w1524145317
-8C:\intelFPGA_pro\projects\lab6\SM_tb.v
-FC:\intelFPGA_pro\projects\lab6\SM_tb.v
+w1524156740
+8C:/intelFPGA_pro/projects/lab6/SM_tb.v
+FC:/intelFPGA_pro/projects/lab6/SM_tb.v
 L0 4
 R3
 r1
 !s85 0
 31
-R4
-Z9 !s107 SM.v|C:\intelFPGA_pro\projects\lab6\SM_tb.v|
-Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab6\SM_tb.v|
+Z10 !s108 1524163000.000000
+Z11 !s107 SM.v|C:/intelFPGA_pro/projects/lab6/SM_tb.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab6/SM_tb.v|
 !i113 1
 R7
 R8
 n@s@m_tb
 vstate_machine
-R0
+R9
 !i10b 1
-!s100 UON1EE]nQI3jcFkm^L=S^0
-I5gaCF9X;4Z33oJYoQDZ>]0
+!s100 >GZV[3i1Z0EIc3bV]0:R72
+I[_USIRem27mID6EYBj`Xg0
 R1
 R2
-w1524145907
+w1524146310
 8SM.v
 FSM.v
 L0 1
@@ -88,9 +88,9 @@ R3
 r1
 !s85 0
 31
-R4
-R9
 R10
+R11
+R12
 !i113 1
 R7
 R8

@@ -1,24 +1,15 @@
-C:/intelFPGA_pro/projects/lab6/MP_tb.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab6/MP_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module microprogram
--- Compiling module MP_tb
-
-Top level modules:
-	MP_tb
-
-} {} {}} C:/intelFPGA_pro/projects/lab6/SM.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab6\SM.v}
+C:/intelFPGA_pro/projects/lab6/SM.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab6\SM.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module state_machine
 
 Top level modules:
 	state_machine
 
-} {} {}} C:/intelFPGA_pro/projects/lab6/SM_tb.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab6\SM_tb.v}
+} {} {}} C:/intelFPGA_pro/projects/lab6/MP.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab6/MP.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module state_machine
--- Compiling module SM_tb
+-- Compiling module microprogram
 
 Top level modules:
-	SM_tb
+	microprogram
 
 } {} {}}

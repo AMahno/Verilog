@@ -1,3 +1,4 @@
+vlog -work work -stats=none C:/intelFPGA_pro/projects/lab6/SM_tb.v
 vsim -gui work.SM_tb -t ns
 
 radix define sm_state {

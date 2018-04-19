@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/17.1
 vALU_tb
-Z0 !s110 1524032619
+Z0 !s110 1524156463
 !i10b 1
 !s100 [D4NNCjZo8@d4D_=K:h0Q1
 INm7fPCL;5LOZ`g`7aoDNz2
@@ -23,7 +23,7 @@ Z3 OV;L;10.5c;63
 r1
 !s85 0
 31
-Z4 !s108 1524032619.000000
+Z4 !s108 1524156463.000000
 Z5 !s107 sudo-ALU.v|C:/intelFPGA_pro/projects/lab5/ALU_tb.v|
 Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab5/ALU_tb.v|
 !i113 1
@@ -54,11 +54,11 @@ R8
 vsudo_ALU
 R0
 !i10b 1
-!s100 cUj><Mn?h4cfm2Ah:5=kN2
-II`GZXL:bSjhNLEUz7TEl_2
+!s100 0PjZMiMcVicjgAf@U5DWM0
+IN?;0kd_Gn4^bLaJ4EAAVI0
 R1
 R2
-w1524032610
+w1524155908
 8sudo-ALU.v
 Fsudo-ALU.v
 L0 1
