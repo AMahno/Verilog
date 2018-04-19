@@ -1,4 +1,4 @@
-vsim -gui work.ALU_tb
+vsim -gui work.ALU_tb -t ns
 
 restart
 delete wave /*
