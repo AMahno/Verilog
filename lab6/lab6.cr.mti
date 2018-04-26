@@ -1,15 +1,1 @@
-C:/intelFPGA_pro/projects/lab6/SM.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab6\SM.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module state_machine
 
-Top level modules:
-	state_machine
-
-} {} {}} C:/intelFPGA_pro/projects/lab6/MP.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab6/MP.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module microprogram
-
-Top level modules:
-	microprogram
-
-} {} {}}

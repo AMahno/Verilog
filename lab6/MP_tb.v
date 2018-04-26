@@ -18,8 +18,24 @@ module MP_tb();
 	    tb_reset <= 0;
 		tb_reset <= #5 1'b1;
 		tb_reset <=  #10 1'b0;
-		tb_x1 <= 1'b0;
-		tb_x2 <= 1'b1;
+		tb_x1 <= #5 1'b0;
+		tb_x2 <= #5 1'b1;
+		
+		tb_reset <= #75 1'b1;
+		tb_reset <= #80 1'b0;
+		tb_x1 <= #75 1'b0;
+		tb_x2 <= #75 1'b0;
+		
+		tb_reset <= #140 1'b1;
+		tb_reset <= #145 1'b0;
+		tb_x1 <= #140 1'b1;
+		tb_x2 <= #140 1'b1;
+		
+		tb_reset <= #200 1'b1;
+		tb_reset <= #205 1'b0;
+		tb_x1 <= #200 1'b1;
+		tb_x2 <= #200 1'b0;
+		
 	 end
 
 endmodule

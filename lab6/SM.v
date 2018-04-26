@@ -36,23 +36,25 @@ module state_machine(clk, w, reset, out);
 		else
 		case(state)
 			S_A:
-				state = w ? S_F : S_B; 
+				state <= w ? S_F : S_B; 
 			S_B:	
-				state = w ? S_F : S_C; 
+				state <= w ? S_F : S_C; 
 			S_C:
-				state = w ? S_F : S_D; 
+				state <= w ? S_F : S_D; 
 			S_D:
-				state = w ? S_F : S_E; 
+				state <= w ? S_F : S_E; 
 			S_E:
-				state = w ? S_F : S_E; 
+				state <= w ? S_F : S_E; 
 			S_F:
-				state = w ? S_G : S_B;
+				state <= w ? S_G : S_B;
 			S_G:
-				state = w ? S_H : S_B;
+				state <= w ? S_H : S_B;
 			S_H:
-				state = w ? S_I : S_B;
+				state <= w ? S_I : S_B;
 			S_I:
-				state = w ? S_I : S_B;
+				state <= w ? S_I : S_B;
+			default:
+				state <= S_A;
 		endcase
 	end
 endmodule

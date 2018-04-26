@@ -19,6 +19,21 @@ module microprogram(clk, x1, x2, reset, out);
 	
 	reg [15:0] state;
 	
+	always @(state) begin
+		case(state)
+			S_0: out <= 1'd0;
+			S_1: out <= 1'd1;
+			S_2: out <= 1'd0;
+			S_3: out <= 1'd1;
+			S_4: out <= 1'd0;
+			S_5: out <= 1'd1;
+			S_6: out <= 1'd0;
+			S_7: out <= 1'd1;
+			S_8: out <= 1'd0;
+			ENDSTATE: out <= 1'd0;
+			endcase
+	end
+	
 	always @(posedge clk, posedge reset) begin
 		if(reset) state <= S_0;
 		else
@@ -43,7 +58,8 @@ module microprogram(clk, x1, x2, reset, out);
 				state <= ENDSTATE;
 			ENDSTATE:
 				state <= ENDSTATE;
-			
+			default:
+				state <= S_1;
 		endcase
 	end
 endmodule

@@ -21,5 +21,5 @@ add wave /tb_reset
 add wave /tb_out
 add wave -radix sm_state /MP_inst/state 
 
-wave zoom range 0ns 100ns
-run 100 ns
+wave zoom range 0ns 250ns
+run 250 ns
