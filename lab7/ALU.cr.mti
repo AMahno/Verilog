@@ -1,0 +1,65 @@
+C:/intelFPGA_pro/projects/lab7/ari_tb.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\ari_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mux
+-- Compiling module arithmetic
+-- Compiling module rotator
+-- Compiling module add_sub_ror
+-- Compiling module ari_tb
+
+Top level modules:
+	mux
+	ari_tb
+
+} {} {}} C:/intelFPGA_pro/projects/lab7/calculator.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\calculator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mux
+-- Compiling module arithmetic
+-- Compiling module rotator
+-- Compiling module add_sub_ror
+-- Compiling module mul_div
+-- Compiling module calculator
+
+Top level modules:
+	mux
+	calculator
+
+} {} {}} C:/intelFPGA_pro/projects/lab7/arithmetic.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\arithmetic.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module arithmetic
+
+Top level modules:
+	arithmetic
+
+} {} {}} C:/intelFPGA_pro/projects/lab7/mux.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} C:/intelFPGA_pro/projects/lab7/rotator.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\rotator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module rotator
+
+Top level modules:
+	rotator
+
+} {} {}} C:/intelFPGA_pro/projects/lab7/mul_div.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\mul_div.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mul_div
+
+Top level modules:
+	mul_div
+
+} {} {}} C:/intelFPGA_pro/projects/lab7/add_sub_ror.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\add_sub_ror.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mux
+-- Compiling module arithmetic
+-- Compiling module rotator
+-- Compiling module add_sub_ror
+
+Top level modules:
+	mux
+	add_sub_ror
+
+} {} {}}
