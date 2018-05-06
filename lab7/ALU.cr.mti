@@ -1,4 +1,4 @@
-C:/intelFPGA_pro/projects/lab7/ari_tb.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\ari_tb.v}
+C:/intelFPGA_pro/projects/lab7/ari_tb.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab7/ari_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module mux
 -- Compiling module arithmetic
@@ -10,7 +10,21 @@ Top level modules:
 	mux
 	ari_tb
 
-} {} {}} C:/intelFPGA_pro/projects/lab7/calculator.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\calculator.v}
+} {} {}} C:/intelFPGA_pro/projects/lab7/mux.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab7/mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} C:/intelFPGA_pro/projects/lab7/arithmetic.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab7/arithmetic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module arithmetic
+
+Top level modules:
+	arithmetic
+
+} {} {}} C:/intelFPGA_pro/projects/lab7/calculator.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab7/calculator.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module mux
 -- Compiling module arithmetic
@@ -23,35 +37,41 @@ Top level modules:
 	mux
 	calculator
 
-} {} {}} C:/intelFPGA_pro/projects/lab7/arithmetic.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\arithmetic.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module arithmetic
-
-Top level modules:
-	arithmetic
-
-} {} {}} C:/intelFPGA_pro/projects/lab7/mux.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\mux.v}
+} {} {}} C:/intelFPGA_pro/projects/lab7/MP_calc.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\MP_calc.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module mux
+-- Compiling module arithmetic
+-- Compiling module rotator
+-- Compiling module add_sub_ror
+-- Compiling module mul_div
+-- Compiling module MP_calculator
 
 Top level modules:
 	mux
+	MP_calculator
 
-} {} {}} C:/intelFPGA_pro/projects/lab7/rotator.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\rotator.v}
+} {} {}} C:/intelFPGA_pro/projects/lab7/rotator.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab7/rotator.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module rotator
 
 Top level modules:
 	rotator
 
-} {} {}} C:/intelFPGA_pro/projects/lab7/mul_div.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\mul_div.v}
+} {} {}} C:/intelFPGA_pro/projects/lab7/calc_tb.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab7/calc_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mux
+-- Compiling module arithmetic
+-- Compiling module rotator
+-- Compiling module add_sub_ror
 -- Compiling module mul_div
+-- Compiling module calculator
+-- Compiling module calc_tb
 
 Top level modules:
-	mul_div
+	mux
+	calc_tb
 
-} {} {}} C:/intelFPGA_pro/projects/lab7/add_sub_ror.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab7\add_sub_ror.v}
+} {} {}} C:/intelFPGA_pro/projects/lab7/add_sub_ror.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab7/add_sub_ror.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module mux
 -- Compiling module arithmetic
@@ -61,5 +81,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	mux
 	add_sub_ror
+
+} {} {}} C:/intelFPGA_pro/projects/lab7/mul_div.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab7/mul_div.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mul_div
+
+Top level modules:
+	mul_div
 
 } {} {}}

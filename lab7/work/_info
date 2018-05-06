@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/projects/lab6
 vadd_sub_ror
-Z0 !s110 1525537083
+Z0 !s110 1525623289
 !i10b 1
 !s100 4^ILmz`g`[d=VJW1Cee5P1
 IYj6j5e2bof[J<C^YP`UTR2
@@ -23,30 +23,30 @@ Z3 OV;L;10.5c;63
 r1
 !s85 0
 31
-Z4 !s108 1525537083.000000
-Z5 !s107 mul_div.v|rotator.v|arithmetic.v|mux.v|add_sub_ror.v|calculator.v|C:\intelFPGA_pro\projects\lab7\calc_tb.v|
-Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab7\calc_tb.v|
+Z4 !s108 1525623289.000000
+Z5 !s107 mul_div.v|rotator.v|arithmetic.v|mux.v|add_sub_ror.v|MP_calc.v|C:\intelFPGA_pro\projects\lab7\MP_calc_tb.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab7\MP_calc_tb.v|
 !i113 1
 Z7 o-work work
 Z8 tCvgOpt 0
 vari_tb
-!s110 1525536421
+!s110 1525623192
 !i10b 1
 !s100 @Wdlb53ENnFT^DG2f5H3o3
-In<nISDZV=jKo0I;bGn;7J1
+IOZEYO6KPz41OzC_XV0X:o2
 R1
 R2
 w1525531993
-8C:\intelFPGA_pro\projects\lab7\ari_tb.v
-FC:\intelFPGA_pro\projects\lab7\ari_tb.v
+8C:/intelFPGA_pro/projects/lab7/ari_tb.v
+FC:/intelFPGA_pro/projects/lab7/ari_tb.v
 L0 3
 R3
 r1
 !s85 0
 31
-!s108 1525536421.000000
-!s107 rotator.v|arithmetic.v|mux.v|add_sub_ror.v|C:\intelFPGA_pro\projects\lab7\ari_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab7\ari_tb.v|
+!s108 1525623192.000000
+!s107 rotator.v|arithmetic.v|mux.v|add_sub_ror.v|C:/intelFPGA_pro/projects/lab7/ari_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab7/ari_tb.v|
 !i113 1
 R7
 R8
@@ -72,28 +72,28 @@ R6
 R7
 R8
 vcalc_tb
-R0
+Z9 !s110 1525623193
 !i10b 1
 !s100 ^7^Qjc:1;@67OdSiJiPVX2
-Ig]IJ5Ql31zV8Hnf2E0<6^2
+Ij?>zW<BVWRMo_Z`0nWEEG0
 R1
 R2
 w1525537078
-8C:\intelFPGA_pro\projects\lab7\calc_tb.v
-FC:\intelFPGA_pro\projects\lab7\calc_tb.v
+8C:/intelFPGA_pro/projects/lab7/calc_tb.v
+FC:/intelFPGA_pro/projects/lab7/calc_tb.v
 L0 3
 R3
 r1
 !s85 0
 31
-R4
-R5
-R6
+Z10 !s108 1525623193.000000
+Z11 !s107 mul_div.v|rotator.v|arithmetic.v|mux.v|add_sub_ror.v|calculator.v|C:/intelFPGA_pro/projects/lab7/calc_tb.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab7/calc_tb.v|
 !i113 1
 R7
 R8
 vcalculator
-R0
+R9
 !i10b 1
 !s100 gIBoR@:j[2D1:bS60chgk0
 IVI7DCP?IeAd5LbH6U^`Zg3
@@ -107,9 +107,9 @@ R3
 r1
 !s85 0
 31
-R4
-R5
-R6
+R10
+R11
+R12
 !i113 1
 R7
 R8
@@ -128,13 +128,57 @@ R3
 r1
 !s85 0
 31
-Z9 !s108 1525516137.000000
+Z13 !s108 1525516137.000000
 !s107 C:/intelFPGA_pro/projects/lab7/Extender.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab7/Extender.v|
 !i113 1
 R7
 R8
 n@extender
+vMP_calc_tb
+Z14 !s110 1525623290
+!i10b 1
+!s100 `Moj=z4hEa6JLBYe3cSS01
+ILe9D8BERc2SROaNmgZWMg3
+R1
+R2
+w1525623287
+8C:\intelFPGA_pro\projects\lab7\MP_calc_tb.v
+FC:\intelFPGA_pro\projects\lab7\MP_calc_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@m@p_calc_tb
+vMP_calculator
+R14
+!i10b 1
+!s100 =6F4hUM3fQ3f0;_M^PgHK3
+IX?YkkPXLcgNhg[9ji1_812
+R1
+R2
+w1525623015
+8MP_calc.v
+FMP_calc.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@m@p_calculator
 vmul_div
 R0
 !i10b 1
@@ -234,7 +278,7 @@ R3
 r1
 !s85 0
 31
-R9
+R13
 !s107 C:/intelFPGA_pro/projects/lab7/Shifter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/lab7/Shifter.v|
 !i113 1
