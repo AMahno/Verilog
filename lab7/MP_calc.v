@@ -32,6 +32,7 @@ module MP_calculator(A, B, C, D, opcode, compute, out, im, clk, reset);
 	
 	reg [15:0] E;
 	reg [15:0] F;
+	reg [15:0] G;
 	
 	add_sub_ror AU_inst(.A(AU_A), .B(AU_B), .C(AU_C), .D(AU_D), 
 	.adder_config(AU_adder_config), .ror_config(AU_ror_config), .typeop(AU_typeop), .clk(clk), .reset(reset), .alu_out(AU_out));	
@@ -70,6 +71,39 @@ module MP_calculator(A, B, C, D, opcode, compute, out, im, clk, reset);
 	parameter S_comp_mul_phase_8 = 16'd21;
 	parameter S_comp_mul_phase_9 = 16'd22;
 	parameter S_comp_mul_phase_10 = 16'd23;
+		
+	parameter S_comp_div_phase_1 = 16'd24;
+	parameter S_comp_div_phase_2 = 16'd25;
+	parameter S_comp_div_phase_3 = 16'd26;
+	parameter S_comp_div_phase_4 = 16'd27;
+	parameter S_comp_div_phase_5 = 16'd28;
+	
+	parameter S_comp_div_phase_6 = 16'd29;
+	parameter S_comp_div_phase_7 = 16'd30;
+	parameter S_comp_div_phase_8 = 16'd31;
+	parameter S_comp_div_phase_9 = 16'd32;
+	parameter S_comp_div_phase_10 = 16'd33;
+	parameter S_comp_div_phase_11 = 16'd34;
+	
+	
+	parameter S_comp_div_phase_12 = 16'd35;
+	parameter S_comp_div_phase_13 = 16'd36;
+	parameter S_comp_div_phase_14 = 16'd37;
+	parameter S_comp_div_phase_15 = 16'd38;
+	parameter S_comp_div_phase_16 = 16'd39;
+	
+	parameter S_comp_div_phase_17 = 16'd40;
+	parameter S_comp_div_phase_18 = 16'd41;
+	parameter S_comp_div_phase_19 = 16'd42;
+	parameter S_comp_div_phase_20 = 16'd43;
+	parameter S_comp_div_phase_21 = 16'd44;
+	parameter S_comp_div_phase_22 = 16'd45;
+	
+	parameter S_rol_phase_1 = 16'd46;
+	parameter S_rol_phase_2 = 16'd47;
+	
+	parameter S_ror_phase_1 = 16'd48;
+	parameter S_ror_phase_2 = 16'd49;
 	
 	always @(posedge clk, posedge reset)
 		if(reset) begin
@@ -98,6 +132,12 @@ module MP_calculator(A, B, C, D, opcode, compute, out, im, clk, reset);
 						state <= S_comp_sub_phase_1;
 					16'd6:
 						state <= S_comp_mul_phase_1;
+					16'd7:
+						state <= S_comp_div_phase_1;
+					16'd8:
+						state <= S_rol_phase_1;
+					16'd9:
+						state <= S_ror_phase_1;
 					default:
 						state <= S_IDLE;
 				endcase
@@ -362,6 +402,323 @@ module MP_calculator(A, B, C, D, opcode, compute, out, im, clk, reset);
 					state <= S_IDLE;
 				end
 			
+			S_comp_div_phase_1:
+				begin
+					MS_A <= A;
+					MS_B <= B;
+					MS_divmul <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_1;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_2;
+					end
+				end
+				
+			S_comp_div_phase_2:
+				begin
+					E <= MS_out;
+					state <= S_comp_div_phase_3;
+				end
+			
+			S_comp_div_phase_3:
+				begin
+					MS_A <= C;
+					MS_B <= D;
+					MS_divmul <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_3;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_4;
+					end
+				end
+				
+			S_comp_div_phase_4:
+				begin
+					F <= MS_out;
+					AU_A <= E;
+					AU_B <= F;
+					AU_C <= 16'd0;
+					AU_D <= 16'd0;
+					AU_adder_config <= 3'b101;
+					AU_typeop <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_4;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_5;
+					end
+				end
+			
+			S_comp_div_phase_5:
+				begin
+					G <= AU_out;
+					state <= S_comp_div_phase_6;
+				end
+				
+			S_comp_div_phase_6:
+				begin
+					MS_A <= B;
+					MS_B <= B;
+					MS_divmul <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_6;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_7;
+					end
+				end
+				
+			S_comp_div_phase_7:
+				begin
+					E <= MS_out;
+					state <= S_comp_div_phase_8;
+				end
+			
+			S_comp_div_phase_8:
+				begin
+					MS_A <= D;
+					MS_B <= D;
+					MS_divmul <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_8;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_9;
+					end
+				end
+				
+			S_comp_div_phase_9:
+				begin
+					F <= MS_out;
+					AU_A <= F;
+					AU_B <= E;
+					AU_C <= 16'd0;
+					AU_D <= 16'd0;
+					AU_adder_config <= 3'b101;
+					AU_typeop <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_9;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_10;
+					end
+				end
+				
+			S_comp_div_phase_10:
+				begin
+					MS_A <= G;
+					MS_B <= AU_out;
+					MS_divmul <= 1'b0;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_10;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_11;
+					end
+				end
+				
+			S_comp_div_phase_11:
+				begin
+					out <= MS_out;
+					state <= S_comp_div_phase_12;
+				end
+				
+			S_comp_div_phase_12:
+				begin
+					MS_A <= C;
+					MS_B <= B;
+					MS_divmul <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_12;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_13;
+					end
+				end
+				
+			S_comp_div_phase_13:
+				begin
+					E <= MS_out;
+					state <= S_comp_div_phase_14;
+				end
+			
+			S_comp_div_phase_14:
+				begin
+					MS_A <= D;
+					MS_B <= A;
+					MS_divmul <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_14;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_15;
+					end
+				end
+				
+			S_comp_div_phase_15:
+				begin
+					F <= MS_out;
+					AU_A <= E;
+					AU_B <= F;
+					AU_C <= 16'd0;
+					AU_D <= 16'd0;
+					AU_adder_config <= 3'b100;
+					AU_typeop <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_15;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_16;
+					end
+				end
+			
+			S_comp_div_phase_16:
+				begin
+					G <= AU_out;
+					state <= S_comp_div_phase_17;
+				end
+				
+			S_comp_div_phase_17:
+				begin
+					MS_A <= B;
+					MS_B <= B;
+					MS_divmul <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_17;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_18;
+					end
+				end
+				
+			S_comp_div_phase_18:
+				begin
+					E <= MS_out;
+					state <= S_comp_div_phase_19;
+				end
+			
+			S_comp_div_phase_19:
+				begin
+					MS_A <= D;
+					MS_B <= D;
+					MS_divmul <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_19;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_20;
+					end
+				end
+				
+			S_comp_div_phase_20:
+				begin
+					F <= MS_out;
+					AU_A <= F;
+					AU_B <= E;
+					AU_C <= 16'd0;
+					AU_D <= 16'd0;
+					AU_adder_config <= 3'b101;
+					AU_typeop <= 1'b1;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_20;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_21;
+					end
+				end
+				
+			S_comp_div_phase_21:
+				begin
+					MS_A <= G;
+					MS_B <= AU_out;
+					MS_divmul <= 1'b0;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_comp_div_phase_21;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_comp_div_phase_22;
+					end
+				end
+				
+			S_comp_div_phase_22:
+				begin
+					im <= MS_out;
+					state <= S_IDLE;
+				end
+				
+			S_rol_phase_1:
+				begin
+					AU_A <= A;
+					AU_B <= B;
+					AU_ror_config <= 1'b0;
+					AU_typeop <= 1'b0;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_rol_phase_1;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_rol_phase_2;
+					end
+				end
+				
+			S_rol_phase_2:
+				begin
+					out <= AU_out;
+					state <= S_IDLE;
+				end
+			
+			S_ror_phase_1:
+				begin
+					AU_A <= A;
+					AU_B <= B;
+					AU_ror_config <= 1'b1;
+					AU_typeop <= 1'b0;
+					if(cycles_counter < 5) begin
+						cycles_counter = cycles_counter +1;
+						state <= S_ror_phase_1;
+					end
+					else begin 
+						cycles_counter = 0; 
+						state <= S_ror_phase_2;
+					end
+				end
+				
+			S_ror_phase_2:
+				begin
+					out <= AU_out;
+					state <= S_IDLE;
+				end
 			
 			default:		
 				state <= S_IDLE;
