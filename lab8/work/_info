@@ -1,0 +1,201 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/projects/lab7
+vadd_sub
+Z0 !s110 1526245233
+!i10b 1
+!s100 O4D42[MjOhSImQlc>`V>J2
+I:`]Ea;ed:F8m7?VV6cQA`1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA_pro/projects/lab8
+w1526209803
+8C:\intelFPGA_pro\projects\lab8\add_sub.v
+FC:\intelFPGA_pro\projects\lab8\add_sub.v
+L0 1
+Z3 OV;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1526245233.000000
+!s107 C:\intelFPGA_pro\projects\lab8\add_sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab8\add_sub.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcounter
+Z7 !s110 1526248659
+!i10b 1
+!s100 1B@mD3T`Q_KlBAjU@Bcjz0
+IEfLBSO=]@PhTYVG44@Z<o3
+R1
+R2
+w1526238803
+8counter.v
+Fcounter.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1526248659.000000
+Z9 !s107 counter.v|C:\intelFPGA_pro\projects\lab8\CU.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab8\CU.v|
+!i113 1
+R5
+R6
+vCU
+R7
+!i10b 1
+!s100 ggQDRaL5AR>=hRkN1TiF]2
+IK7kj:>n]hf0]CdhcD1QzU3
+R1
+R2
+w1526248656
+8C:\intelFPGA_pro\projects\lab8\CU.v
+FC:\intelFPGA_pro\projects\lab8\CU.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R5
+R6
+n@c@u
+vIR
+R0
+!i10b 1
+!s100 ?z@;7[PJ=IP^4V`f6_fIc2
+I_lKkgHaEH7WcgT3^l;5O11
+R1
+R2
+w1526244770
+8C:\intelFPGA_pro\projects\lab8\IR.v
+FC:\intelFPGA_pro\projects\lab8\IR.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\intelFPGA_pro\projects\lab8\IR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab8\IR.v|
+!i113 1
+R5
+R6
+n@i@r
+vmonitor
+!s110 1526246229
+!i10b 1
+!s100 1F30oIMF8Wd`EoDfC[A_W1
+Ic1b9>nncDg5lOZ0I?=UI@3
+R1
+R2
+w1526246227
+8C:\intelFPGA_pro\projects\lab8\monitor.v
+FC:\intelFPGA_pro\projects\lab8\monitor.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1526246229.000000
+!s107 C:\intelFPGA_pro\projects\lab8\monitor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab8\monitor.v|
+!i113 1
+R5
+R6
+vmux16
+R0
+!i10b 1
+!s100 fi[P>1@[jOH8?aOee6g361
+IQ``o2DY6KW@N[C82:65Hl1
+R1
+R2
+w1526209038
+8C:\intelFPGA_pro\projects\lab8\16mux.v
+FC:\intelFPGA_pro\projects\lab8\16mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\intelFPGA_pro\projects\lab8\16mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab8\16mux.v|
+!i113 1
+R5
+R6
+vproc_tb
+!s110 1526248009
+!i10b 1
+!s100 5Zz0065HfQGF<K9>18[Gi2
+IY^e0=_IADz_`bSEX2048l0
+R1
+R2
+w1526247828
+8C:\intelFPGA_pro\projects\lab8\proc_tb.v
+FC:\intelFPGA_pro\projects\lab8\proc_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1526248009.000000
+!s107 C:\intelFPGA_pro\projects\lab8\proc_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab8\proc_tb.v|
+!i113 1
+R5
+R6
+vprocessor
+R0
+!i10b 1
+!s100 73h]PeV`Fo_m_[F>:]MKS1
+IV`k32LF9T<Z890z[l@[_V2
+R1
+R2
+w1526241978
+8C:\intelFPGA_pro\projects\lab8\processor.v
+FC:\intelFPGA_pro\projects\lab8\processor.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 monitor.v|IR.v|counter.v|CU.v|16mux.v|16reg.v|C:\intelFPGA_pro\projects\lab8\processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab8\processor.v|
+!i113 1
+R5
+R6
+vreg_16
+R0
+!i10b 1
+!s100 EU;<Q?QfMCzHcd`1lRUB40
+Ign@h2N35L5;fcN0e6f5G_3
+R1
+R2
+w1526209258
+8C:\intelFPGA_pro\projects\lab8\16reg.v
+FC:\intelFPGA_pro\projects\lab8\16reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\intelFPGA_pro\projects\lab8\16reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\lab8\16reg.v|
+!i113 1
+R5
+R6
