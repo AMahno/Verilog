@@ -1,0 +1,18 @@
+C:/intelFPGA_pro/projects/mkr2/sorter.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/mkr2/sorter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module sorter_tb
+-- Compiling module sorter
+-- Compiling module ROM
+
+Top level modules:
+	sorter_tb
+
+} {} {}} C:/intelFPGA_pro/projects/mkr2/counter.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\mkr2\counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module counter_tb
+-- Compiling module counter_10
+
+Top level modules:
+	counter_tb
+
+} {} {}}

@@ -1,0 +1,116 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/projects/memory
+vcounter_10
+Z0 !s110 1526467830
+!i10b 1
+!s100 akf3h2LcCSSSl`M?M0UCc0
+I?lSG;D][dZL^71`ZIEdSW1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA_pro/projects/mkr2
+Z3 w1526467828
+Z4 8C:\intelFPGA_pro\projects\mkr2\counter.v
+Z5 FC:\intelFPGA_pro\projects\mkr2\counter.v
+L0 23
+Z6 OV;L;10.5c;63
+r1
+!s85 0
+31
+Z7 !s108 1526467830.000000
+Z8 !s107 C:\intelFPGA_pro\projects\mkr2\counter.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\mkr2\counter.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcounter_tb
+R0
+!i10b 1
+!s100 JQbG79l>FDmXOd4<XJF3Y0
+I9^JofToN1jlch^zihQQA^2
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vROM
+Z12 !s110 1526466852
+!i10b 1
+!s100 Ba7ob64E0bH_jT4=eVgD13
+Izl2bcAJn>^71AhRYTX9KA0
+R1
+R2
+Z13 w1526466850
+Z14 8C:/intelFPGA_pro/projects/mkr2/sorter.v
+Z15 FC:/intelFPGA_pro/projects/mkr2/sorter.v
+L0 76
+R6
+r1
+!s85 0
+31
+Z16 !s108 1526466852.000000
+Z17 !s107 C:/intelFPGA_pro/projects/mkr2/sorter.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/mkr2/sorter.v|
+!i113 1
+R10
+R11
+n@r@o@m
+vsorter
+R12
+!i10b 1
+!s100 PTQ@558lhal?]f0^1JDA=3
+IUMk1TZ8Q1SFk_3;0l;_;P3
+R1
+R2
+R13
+R14
+R15
+L0 18
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vsorter_tb
+R12
+!i10b 1
+!s100 3SMOk1RVgEjlY0XOGiQ132
+Ib=VS89=T^eIP<YIMbJFkL2
+R1
+R2
+R13
+R14
+R15
+L0 3
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11

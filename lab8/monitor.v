@@ -11,6 +11,7 @@ module monitor(R0, R1, R2, R3, R4, R5, R6, R7, acc, G);
 	input [15:0] G;
 	
 	always @ * begin
+	#5;
 	 $display("Register states:");
 	 $display("R0\tR1\tR2\tR3\tR4\tR5\tR6\tR7\tACC\tG");
 	 $display("%h\t%h\t%h\t%h\t%h\t%h\t%h\t%h\t%d\t%d\t", R0, R1, R2, R3, R4, R5, R6, R7, acc, G);

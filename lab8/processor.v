@@ -36,7 +36,7 @@ module processor(clk, reset, run, DIN, out_bus, done);
 	CU control_unit(.clk(clk), .opcode(IR_out_wire), .run(run), .reset(reset), .IRin(IR_we_wire), .reg_select(reg_select_wire), 
 	.Gout(G_out_wire), .DINout(DIN_out_wire), .acc_we(acc_we_wire), .G_we(G_we_wire),
 	.Rnwe(Rnwe_wire), .addsub(add_sub_wire),
-	.counter_data(), .counter_clear(), .done(done));
+	.done(done));
 
 	wire [15:0] R0_out;
 	wire [15:0] R1_out;
@@ -68,4 +68,5 @@ module processor(clk, reset, run, DIN, out_bus, done);
 	.DIN(DIN), .G(G_output_wire), .regSelect(reg_select_wire), .Gout(G_out_wire), .DINout(DIN_out_wire), .out(bus));
 	
 	monitor mon(.R0(R0_out), .R1(R1_out), .R2(R2_out), .R3(R3_out), .R4(R4_out), .R5(R5_out), .R6(R6_out), .R7(R7_out), .acc(A_wire), .G(G_output_wire));
+	
 endmodule

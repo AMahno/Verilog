@@ -1,6 +1,6 @@
 `include "counter.v"
 
-module CU(clk, opcode, run, reset, IRin, reg_select, Gout, DINout, Rnwe, acc_we, G_we, addsub, counter_data, counter_clear, done);
+module CU(clk, opcode, run, reset, IRin, reg_select, Gout, DINout, Rnwe, acc_we, G_we, addsub, done);
 	input clk;
 	input [8:0] opcode;
 	input run;
@@ -13,11 +13,12 @@ module CU(clk, opcode, run, reset, IRin, reg_select, Gout, DINout, Rnwe, acc_we,
 	output reg acc_we;
 	output reg G_we;
 	output reg addsub;
-	input [1:0] counter_data;
-	output reg counter_clear;
 	output reg done;
 	
-	counter couter_inst(.clk(clk), .clear(counter_clear), .out(counter_data));
+	wire [1:0] counter_data;
+	reg counter_clear;
+	
+	counter couter_inst(.clk(clk), .clear(counter_clear), .out(counter_data), .run(run));
 	
 	wire [2:0] instruction;
 	assign instruction = opcode[2:0];
@@ -46,9 +47,9 @@ module CU(clk, opcode, run, reset, IRin, reg_select, Gout, DINout, Rnwe, acc_we,
 					case(instruction)
 						3'd0: begin reg_select = regY; Rnwe = 1'd1 << regX; done = 1'd0; counter_clear = 1'd1; end
 						3'd1: begin IRin = 1'd0; DINout = 1'd1; Rnwe = 1'd1 << regX; done = 1'd0; counter_clear = 1'd1; end
-						3'd2: begin reg_select = regX; acc_we = 1'd1; done = 1'd0; end
-						3'd3: begin reg_select = regX; acc_we = 1'd1; done = 1'd0; end
-						3'd4: begin reg_select = regX; acc_we = 1'd1; IRin = 1'd0; done = 1'd0; counter_clear = 1'd1; end
+						3'd2: begin IRin = 1'd0; reg_select = regX; acc_we = 1'd1; done = 1'd0; end
+						3'd3: begin IRin = 1'd0; reg_select = regX; acc_we = 1'd1; done = 1'd0; end
+						3'd4: begin counter_clear = 1'd1; end
 					endcase
 				end
 			2'd2:
@@ -67,7 +68,7 @@ module CU(clk, opcode, run, reset, IRin, reg_select, Gout, DINout, Rnwe, acc_we,
 				end
 			endcase
 		end
-	
+
 	end
 	
 endmodule

@@ -1,11 +1,12 @@
-C:/intelFPGA_pro/projects/lab8/monitor.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab8\monitor.v}
+C:/intelFPGA_pro/projects/lab8/CU.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab8/CU.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module monitor
+-- Compiling module counter
+-- Compiling module CU
 
 Top level modules:
-	monitor
+	CU
 
-} {} {}} C:/intelFPGA_pro/projects/lab8/processor.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab8\processor.v}
+} {} {}} C:/intelFPGA_pro/projects/lab8/processor.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab8/processor.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module reg_16
 -- Compiling module mux16
@@ -18,6 +19,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	processor
 
+} {} {}} C:/intelFPGA_pro/projects/lab8/monitor.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab8/monitor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module monitor
+
+Top level modules:
+	monitor
+
 } {} {}} C:/intelFPGA_pro/projects/lab8/counter.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab8\counter.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module counter
@@ -25,25 +33,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	counter
 
-} {} {}} C:/intelFPGA_pro/projects/lab8/proc_tb.v {2 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab8\proc_tb.v}
+} {} {}} C:/intelFPGA_pro/projects/lab8/memory.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab8/memory.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module proc_tb
-** Warning: C:\intelFPGA_pro\projects\lab8\proc_tb.v(96): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-** Warning: C:\intelFPGA_pro\projects\lab8\proc_tb.v(96): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-** Warning: C:\intelFPGA_pro\projects\lab8\proc_tb.v(110): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-** Warning: C:\intelFPGA_pro\projects\lab8\proc_tb.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-** Warning: C:\intelFPGA_pro\projects\lab8\proc_tb.v(122): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-** Warning: C:\intelFPGA_pro\projects\lab8\proc_tb.v(135): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling module memory
 
 Top level modules:
-	proc_tb
-
-} {} {}} C:/intelFPGA_pro/projects/lab8/16reg.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab8\16reg.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module reg_16
-
-Top level modules:
-	reg_16
+	memory
 
 } {} {}} C:/intelFPGA_pro/projects/lab8/16mux.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab8\16mux.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
@@ -51,6 +46,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 
 Top level modules:
 	mux16
+
+} {} {}} C:/intelFPGA_pro/projects/lab8/16reg.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab8\16reg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module reg_16
+
+Top level modules:
+	reg_16
 
 } {} {}} C:/intelFPGA_pro/projects/lab8/add_sub.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\lab8\add_sub.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
