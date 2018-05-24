@@ -33,6 +33,30 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	counter
 
+} {} {}} C:/intelFPGA_pro/projects/lab8/proc_tb.v {2 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab8/proc_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module memory
+-- Compiling module reg_16
+-- Compiling module mux16
+-- Compiling module counter
+-- Compiling module CU
+-- Compiling module IR
+-- Compiling module monitor
+-- Compiling module processor
+-- Compiling module proc_tb
+** Warning: C:/intelFPGA_pro/projects/lab8/proc_tb.v(70): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/intelFPGA_pro/projects/lab8/proc_tb.v(70): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/intelFPGA_pro/projects/lab8/proc_tb.v(84): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/intelFPGA_pro/projects/lab8/proc_tb.v(96): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/intelFPGA_pro/projects/lab8/proc_tb.v(96): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/intelFPGA_pro/projects/lab8/proc_tb.v(109): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/intelFPGA_pro/projects/lab8/proc_tb.v(118): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/intelFPGA_pro/projects/lab8/proc_tb.v(118): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/intelFPGA_pro/projects/lab8/proc_tb.v(118): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	proc_tb
+
 } {} {}} C:/intelFPGA_pro/projects/lab8/memory.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/lab8/memory.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module memory
